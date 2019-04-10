@@ -24,7 +24,7 @@ fun mult'([],a) = a
 	|mult'(x::L,a) = mult'(L,a*x);
 
 fun Mult'([],a) = a
-	|Mult'(r::R,a) = Mult'(R,mult'(r)*a);
+	|Mult'(r::R,a) = Mult'(R,mult'(r，1)*a);
 	
 (*非尾递归*)
 (*
